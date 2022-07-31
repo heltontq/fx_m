@@ -1,6 +1,6 @@
-(a as number, b as number) =>
+(a as number, b as number, c as number, d as number, e as number, f as number, g as number, h as number, i as number, j as number, k as number, l as number) =>
 
 let
-    out = a+b
+    out = a+b+c+d+e+f+g+h+i+j+k+l
 in
     out
