@@ -1,0 +1,19 @@
+= (
+    TextoSubstituir as text,
+    lista_de_para as list
+)=>
+
+let
+
+    frase_quebrada = Text.Split(TextoSubstituir, " "),
+    frase_nova = 
+        Text.Combine(
+            List.ReplaceMatchingItems(
+                frase_quebrada,
+                lista_de_para
+            )
+            ," "
+        )
+
+in
+    frase_nova
